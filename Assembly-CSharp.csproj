@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{5B580621-09B4-68CB-B5F4-5B9DD210A60F}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_1;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\02_Scripts\Block.cs" />
+     <Compile Include="Assets\02_Scripts\BlockManager.cs" />
+     <Compile Include="Assets\02_Scripts\BoatContMenu.cs" />
+     <Compile Include="Assets\02_Scripts\BoatController.cs" />
+     <Compile Include="Assets\02_Scripts\BoatTestScript.cs" />
+     <Compile Include="Assets\02_Scripts\DockCode.cs" />
+     <Compile Include="Assets\02_Scripts\DockCode2.cs" />
+     <Compile Include="Assets\02_Scripts\Floater.cs" />
+     <Compile Include="Assets\02_Scripts\GotoIsland\Fading.cs" />
+     <Compile Include="Assets\02_Scripts\GotoIsland\Title.cs" />
+     <Compile Include="Assets\02_Scripts\GotoIsland\ToCustoScene.cs" />
+     <Compile Include="Assets\02_Scripts\GotoIsland\ToEditScene.cs" />
+     <Compile Include="Assets\02_Scripts\GotoIsland\ToExitScene.cs" />
+     <Compile Include="Assets\02_Scripts\GotoIsland\ToPlayScene.cs" />
+     <Compile Include="Assets\02_Scripts\GotoIsland\ToStartScene.cs" />
+     <Compile Include="Assets\02_Scripts\ItemInventory.cs" />
+     <Compile Include="Assets\02_Scripts\MainMenuControl.cs" />
+     <Compile Include="Assets\02_Scripts\MapManager.cs" />
+     <Compile Include="Assets\02_Scripts\MenuControl.cs" />
+     <Compile Include="Assets\02_Scripts\MenuScript.cs" />
+     <Compile Include="Assets\02_Scripts\MotionManager.cs" />
+     <Compile Include="Assets\02_Scripts\MyVector.cs" />
+     <Compile Include="Assets\02_Scripts\OptionSlider.cs" />
+     <Compile Include="Assets\02_Scripts\OptionToggle.cs" />
+     <Compile Include="Assets\02_Scripts\OwlSoundScript.cs" />
+     <Compile Include="Assets\02_Scripts\SceneFadeinout.cs" />
+     <Compile Include="Assets\02_Scripts\StartBoatControl.cs" />
+     <Compile Include="Assets\02_Scripts\WalkSoundScript.cs" />
+     <Compile Include="Assets\02_Scripts\WaterWaves.cs" />
+     <Compile Include="Assets\02_Scripts\eleDoor.cs" />
+     <Compile Include="Assets\Browser.cs" />
+     <Compile Include="Assets\Draw Call Minimizer\Scripts\NEW\Runtime\DrawCallMinimizer.cs" />
+     <Compile Include="Assets\Draw Call Minimizer\Scripts\NEW\Utility\CommonShaderProperties.cs" />
+     <Compile Include="Assets\Draw Call Minimizer\Scripts\NEW\Utility\DrawCallMinimizerInfo.cs" />
+     <Compile Include="Assets\Draw Call Minimizer\Scripts\NEW\Utility\MatrixExtension.cs" />
+     <Compile Include="Assets\Draw Call Minimizer\Scripts\NEW\Utility\MeshCombineUtility.cs" />
+     <Compile Include="Assets\Draw Call Minimizer\Scripts\NEW\Utility\MeshExporter.cs" />
+     <Compile Include="Assets\Draw Call Minimizer\Scripts\NEW\Utility\MeshInstance.cs" />
+     <Compile Include="Assets\Draw Call Minimizer\Scripts\NEW\Utility\ShaderProperties.cs" />
+     <Compile Include="Assets\Draw Call Minimizer\Scripts\NEW\Utility\TextureCombineOutput.cs" />
+     <Compile Include="Assets\Draw Call Minimizer\Scripts\NEW\Utility\TextureCombineUtility.cs" />
+     <Compile Include="Assets\Draw Call Minimizer\Scripts\NEW\Utility\TexturePosition.cs" />
+     <Compile Include="Assets\Draw Call Minimizer\Scripts\OLD\Misc\ShaderProperties.cs" />
+     <Compile Include="Assets\Draw Call Minimizer\Scripts\OLD\Misc\TextureAtlasInfo.cs" />
+     <Compile Include="Assets\Draw Call Minimizer\Scripts\OLD\Runtime\MeshCombineUtility.cs" />
+     <Compile Include="Assets\Draw Call Minimizer\Scripts\OLD\Runtime\OptimizedCombineChildren.cs" />
+     <Compile Include="Assets\Draw Call Minimizer\Scripts\OLD\Runtime\TextureCombineUtility.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+     <Compile Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+     <Compile Include="Assets\ItemAsset\CharacterCustom\ToonCharacterPack\Script\Elf_Manager.cs" />
+     <Compile Include="Assets\ItemAsset\CharacterCustom\ToonCharacterPack\Script\Gun_Manager.cs" />
+     <Compile Include="Assets\ItemAsset\CharacterCustom\ToonCharacterPack\Script\Manager.cs" />
+     <Compile Include="Assets\ItemAsset\CharacterCustom\ToonCharacterPack\Script\Witch_Manager.cs" />
+     <Compile Include="Assets\ItemAsset\CharacterCustom\customize.cs" />
+     <Compile Include="Assets\ItemAsset\MagicMirror\Demo\DemoScript.cs" />
+     <Compile Include="Assets\ItemAsset\MagicMirror\Demo\Standard Assets\Environment\Water\Water\Scripts\Displace.cs" />
+     <Compile Include="Assets\ItemAsset\MagicMirror\Demo\Standard Assets\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
+     <Compile Include="Assets\ItemAsset\MagicMirror\Demo\Standard Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
+     <Compile Include="Assets\ItemAsset\MagicMirror\Demo\Standard Assets\Environment\Water\Water\Scripts\PlanarReflection.cs" />
+     <Compile Include="Assets\ItemAsset\MagicMirror\Demo\Standard Assets\Environment\Water\Water\Scripts\SpecularLighting.cs" />
+     <Compile Include="Assets\ItemAsset\MagicMirror\Demo\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
+     <Compile Include="Assets\ItemAsset\MagicMirror\Demo\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
+     <Compile Include="Assets\ItemAsset\MagicMirror\Demo\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
+     <Compile Include="Assets\ItemAsset\MagicMirror\Prefab\MirrorCameraScript.cs" />
+     <Compile Include="Assets\ItemAsset\MagicMirror\Prefab\MirrorReflectionScript.cs" />
+     <Compile Include="Assets\ItemAsset\MagicMirror\Prefab\MirrorScript.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Assets\Scripts\Doxyfile.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Assets\Scripts\TOD_Animation.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Assets\Scripts\TOD_Attributes.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Assets\Scripts\TOD_Billboard.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Assets\Scripts\TOD_Camera.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Assets\Scripts\TOD_Components.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Assets\Scripts\TOD_Enums.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Assets\Scripts\TOD_ImageEffect.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Assets\Scripts\TOD_Parameters.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Assets\Scripts\TOD_Rays.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Assets\Scripts\TOD_Resources.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Assets\Scripts\TOD_Scattering.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Assets\Scripts\TOD_Shadows.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Assets\Scripts\TOD_Sky+API.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Assets\Scripts\TOD_Sky+Settings.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Assets\Scripts\TOD_Sky+Shader.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Assets\Scripts\TOD_Sky+Unity.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Assets\Scripts\TOD_Sky.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Assets\Scripts\TOD_Time.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Assets\Scripts\TOD_Util.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Examples\TOD_AudioAtDay.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Examples\TOD_AudioAtNight.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Examples\TOD_AudioAtTime.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Examples\TOD_LightAtDay.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Examples\TOD_LightAtNight.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Examples\TOD_LightAtTime.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Examples\TOD_LoadSkyFromFile.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Examples\TOD_ParticleAtDay.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Examples\TOD_ParticleAtNight.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Examples\TOD_ParticleAtTime.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Examples\TOD_RenderAtDay.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Examples\TOD_RenderAtNight.cs" />
+     <Compile Include="Assets\ItemAsset\Time of Day\Examples\TOD_WeatherManager.cs" />
+     <Compile Include="Assets\LeapMotion+OVR\DemoResources\Scripts\BlocksPlaneGenerator.cs" />
+     <Compile Include="Assets\LeapMotion+OVR\DemoResources\Scripts\MovementManager.cs" />
+     <Compile Include="Assets\LeapMotion+OVR\DemoResources\Scripts\RandomBlocksGenerator.cs" />
+     <Compile Include="Assets\LeapMotion+OVR\Scripts\LeapCameraAlignment.cs" />
+     <Compile Include="Assets\LeapMotion+OVR\Scripts\OVRReset.cs" />
+     <Compile Include="Assets\LeapMotion+OVR\SystemWipe\QuickSwitcher.cs" />
+     <Compile Include="Assets\LeapMotion+OVR\SystemWipe\SystemWipeRecognizerListener.cs" />
+     <Compile Include="Assets\LeapMotion+OVR\SystemWipe\SystemWipeRecognizerNative.cs" />
+     <Compile Include="Assets\LeapMotion+OVR\Widgets\Scripts\DataBinderExamples\DialToTextBinder.cs" />
+     <Compile Include="Assets\LeapMotion+OVR\Widgets\Scripts\DataBinderExamples\SliderToTextDataBinder.cs" />
+     <Compile Include="Assets\LeapMotion+OVR\Widgets\Scripts\DataBinderExamples\ToggleToTextDataBinder.cs" />
+     <Compile Include="Assets\LeapMotion+OVR\Widgets\Scripts\WidgetsEnabler.cs" />
+     <Compile Include="Assets\LeapMotion\DemoResources\Scripts\AerodynamicLeaf.cs" />
+     <Compile Include="Assets\LeapMotion\DemoResources\Scripts\ChangeMaterialOnGrab.cs" />
+     <Compile Include="Assets\LeapMotion\DemoResources\Scripts\CubeWave.cs" />
+     <Compile Include="Assets\LeapMotion\DemoResources\Scripts\FloatingStem.cs" />
+     <Compile Include="Assets\LeapMotion\DemoResources\Scripts\FlowerBloom.cs" />
+     <Compile Include="Assets\LeapMotion\DemoResources\Scripts\FlowerGrower.cs" />
+     <Compile Include="Assets\LeapMotion\DemoResources\Scripts\HandCycler.cs" />
+     <Compile Include="Assets\LeapMotion\DemoResources\Scripts\HandDetector.cs" />
+     <Compile Include="Assets\LeapMotion\DemoResources\Scripts\IgnoreInternalCollisions.cs" />
+     <Compile Include="Assets\LeapMotion\DemoResources\Scripts\ParticlesOnCollision.cs" />
+     <Compile Include="Assets\LeapMotion\DemoResources\Scripts\PetalMesh.cs" />
+     <Compile Include="Assets\LeapMotion\DemoResources\Scripts\PressAnyKeyToReset.cs" />
+     <Compile Include="Assets\LeapMotion\DemoResources\Scripts\RecordingControls.cs" />
+     <Compile Include="Assets\LeapMotion\DemoResources\Scripts\ResetCollisionsOnBreak.cs" />
+     <Compile Include="Assets\LeapMotion\DemoResources\Scripts\StemMesh.cs" />
+     <Compile Include="Assets\LeapMotion\DemoResources\Scripts\VoxelSheet.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\HandController.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\DebugFinger.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\DebugHand.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\FingerModel.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\HandFader.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\HandModel.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\PolyFinger.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\PolyHand.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\RiggedFinger.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\RiggedHand.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\RigidFinger.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\RigidHand.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\SkeletalFinger.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\SkeletalHand.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\LeapDeviceInfo.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\LeapImageBasedMaterial.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\LeapImageRetriever.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Tools\ToolModel.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\ConfidenceTransparency.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\DisconnectionNotice.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\EnableDepthBuffer.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\EnableUpdateOrdering.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\FitHeightToScreen.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\GrabbableObject.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\GrabbingHand.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\KeyToggleEnabled.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\LeapRecorder.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\LeapUnityExtensions.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\MagneticPinch.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\StretchToScreen.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\TriggerDrawing.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\Utils.cs" />
+     <Compile Include="Assets\LeapMotion\Widgets\Scripts\Button\ButtonBase.cs" />
+     <Compile Include="Assets\LeapMotion\Widgets\Scripts\Button\ButtonToggleBase.cs" />
+     <Compile Include="Assets\LeapMotion\Widgets\Scripts\DemoScripts\ButtonDemoGraphics.cs" />
+     <Compile Include="Assets\LeapMotion\Widgets\Scripts\DemoScripts\ButtonDemoToggle.cs" />
+     <Compile Include="Assets\LeapMotion\Widgets\Scripts\DemoScripts\SliderDemo.cs" />
+     <Compile Include="Assets\LeapMotion\Widgets\Scripts\DemoScripts\SliderDemoGraphics.cs" />
+     <Compile Include="Assets\LeapMotion\Widgets\Scripts\Dial\DatePickerHideVolume.cs" />
+     <Compile Include="Assets\LeapMotion\Widgets\Scripts\Dial\DialGraphics.cs" />
+     <Compile Include="Assets\LeapMotion\Widgets\Scripts\Dial\DialModeBase.cs" />
+     <Compile Include="Assets\LeapMotion\Widgets\Scripts\Dial\FadeTextByRotation.cs" />
+     <Compile Include="Assets\LeapMotion\Widgets\Scripts\Dial\HilightTextVolume.cs" />
+     <Compile Include="Assets\LeapMotion\Widgets\Scripts\Events\EventArg.cs" />
+     <Compile Include="Assets\LeapMotion\Widgets\Scripts\Interfaces\AnalogInteractionHandler.cs" />
+     <Compile Include="Assets\LeapMotion\Widgets\Scripts\Interfaces\BinaryInteractionHandler.cs" />
+     <Compile Include="Assets\LeapMotion\Widgets\Scripts\Interfaces\DataBinder.cs" />
+     <Compile Include="Assets\LeapMotion\Widgets\Scripts\Interfaces\IDataBoundWidget.cs" />
+     <Compile Include="Assets\LeapMotion\Widgets\Scripts\Physics\LeapPhysicsBase.cs" />
+     <Compile Include="Assets\LeapMotion\Widgets\Scripts\Physics\LeapPhysicsSpring.cs" />
+     <Compile Include="Assets\LeapMotion\Widgets\Scripts\Scroll\ScrollBase.cs" />
+     <Compile Include="Assets\LeapMotion\Widgets\Scripts\Slider\SliderBase.cs" />
+     <Compile Include="Assets\LeapMotion\Widgets\Scripts\SliderActivationManager.cs" />
+     <Compile Include="Assets\LeapMotion\Widgets\Scripts\Utils\ExponentialSmoothing.cs" />
+     <Compile Include="Assets\LeapMotion\Widgets\Scripts\Utils\FrameRateControls.cs" />
+     <Compile Include="Assets\Motion\Script\CooltimeToggle.cs" />
+     <Compile Include="Assets\Motion\Script\Cooltimebutton.cs" />
+     <Compile Include="Assets\Motion\Script\HangliderMove.cs" />
+     <Compile Include="Assets\Motion\Script\MotorCycle.cs" />
+     <Compile Include="Assets\Motion\Script\MyLeap.cs" />
+     <Compile Include="Assets\Motion\Script\MySlider.cs" />
+     <Compile Include="Assets\Motion\Script\SightRotate.cs" />
+     <Compile Include="Assets\Motion\Script\VirtualKeyDown.cs" />
+     <Compile Include="Assets\Motion\Script\VirtualKeyUp.cs" />
+     <Compile Include="Assets\Motion\Script\clickBtn.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\BedBlock.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\BigTreeBlock.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\BlockObject.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\BonfireBlock.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\BookBlock.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\Bush1Block.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\BushBlock.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\ChairBlock.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\DockBlock.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\ExteriorBlock.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\HangGliderTowerBlock.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\InteriorBlock.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\LPPlayerBlock.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\LampBlock.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\MirrorBlock.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\PictureFrameBlock.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\PremiumHouseBlock.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\SimpleHouseBlock.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\SofaBlock.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\StartingPointBlock.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\StructureBlock.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\TableBlock.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\TerrainBlock.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Block\TreeBlock.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\CharaterManager.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Cube.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Interior\B_Browser.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Interior\Book.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Interior\BookAnimation.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Interior\L_Browser.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Interior\P_Browser.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Interior\T_Browser.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\LampOnOff.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\MapEditor\AspectUtility.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\MapEditor\BlockSelector.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\MapEditor\DropDownMenu.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\MapEditor\EditorCamera.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\MapEditor\MapManager.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\MapEditor\MapTool.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\MapEditor\MassBuilder.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\MapEditor\Remover.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\MapEditor\SaveLoadManager.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\MapEditor\SingleBuilder.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\MapEditor\ToggleText.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\MapEditor\ToolManager.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\MapEditor\Tooltip.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\MapEditor\UIManager.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\ObjectPool.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\OpenDoor.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Plane.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\PlayMapManager.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\PoolManager.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Primitive.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Singleton.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Utils\IntVector3.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\Utils\Range.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\VariableCube.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\tvlpbookpicture\B_Browser.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\tvlpbookpicture\L_Browser.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\tvlpbookpicture\P_Browser.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\tvlpbookpicture\T_Browser.cs" />
+     <Compile Include="Assets\MyPI\02_Scripts\tvlpbookpicture\bookplay.cs" />
+     <Compile Include="Assets\MyPI\05_Models\Realistic Fire\Demo\CameraMovement.cs" />
+     <Compile Include="Assets\MyPI\05_Models\Realistic Fire\Demo\MouseCameraControl.cs" />
+     <Compile Include="Assets\MyPI\05_Models\Realistic Fire\FireController.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRCameraRig.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRCommon.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRDisplay.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRManager.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRPluginEvent.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRTracker.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRUnityVersionChecker.cs" />
+     <Compile Include="Assets\OVR\Scripts\OvrCapi.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRCrosshair.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRGUI.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRGamepadController.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRGridCube.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRMainMenu.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRPlayerController.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRUGUI.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRVisionGuide.cs" />
+     <Compile Include="Assets\charactermove.cs" />
+     <Compile Include="Assets\importcharacter.cs" />
+     <Compile Include="Assets\page.cs" />
+     <None Include="Assets\ItemAsset\MagicMirror\Prefab\MirrorShaderOld.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Cube\EW5_T_D_R.shader" />
+     <None Include="Assets\Plugins\donotdelete.txt" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Old\EasyWater2_CTD.shader" />
+     <None Include="Assets\ItemAsset\Time of Day\Assets\Shaders\Moon.shader" />
+     <None Include="Assets\ItemAsset\Time of Day\Assets\Shaders\Sun.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Old\EasyWater7_2TDR.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\ItemAsset\Time of Day\Assets\Shaders\TOD_Base.cginc" />
+     <None Include="Assets\LeapMotion\Resources\LeapCG.cginc" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Cube\EW13_TT_B_D_O_R.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Cube\EW7_TT_D_R.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Old\EasyWaterFastest.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\LeapMotion\README_BEFORE_UPDATING.txt" />
+     <None Include="Assets\ItemAsset\Time of Day\Assets\Shaders\Space.shader" />
+     <None Include="Assets\ItemAsset\Coconut Palm Tree Pack\Coconut_Palm_Shaders\TFP_treecreator\TFPTreeCreatorLeavesOptimized.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\ItemAsset\Grim\Coastline Set\Materials\Tessa-DiffuseBumpSpec.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\ItemAsset\MagicMirror\Prefab\MirrorShaderBumpMap.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Cube\EW4_C_TT_D.shader" />
+     <None Include="Assets\ItemAsset\Time of Day\Assets\Shaders\TOD_Scattering.cginc" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Cube\EW8_C_TT_D_R.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Cube\EW0_TT_O.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Cube\EW11_TT_B_D_FO.shader" />
+     <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Old\EasyWater0_2TO.shader" />
+     <None Include="Assets\ItemAsset\Time of Day\Assets\Shaders\Skybox.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Old\EasyWater13_2TBDOR.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\LeapMotion\DemoResources\ScrollerText.txt" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Old\EasyWater9_2TDRO.shader" />
+     <None Include="Assets\LeapMotion\readme.txt" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\LeapMotion\Resources\ImageHandHighlight.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Cube\EW12_C_TT_B_D_FO.shader" />
+     <None Include="Assets\MyPI\05_Models\EasyWater\Shaders_Cube\EW14_C_TT_B_D_FO_R.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Cube\EW3_TT_D.shader" />
+     <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Cube\EW2_C_T_D.shader" />
+     <None Include="Assets\ItemAsset\Time of Day\Assets\Shaders\PP God Rays.shader" />
+     <None Include="Assets\MyPI\05_Models\Window\NewShader.shader" />
+     <None Include="Assets\ItemAsset\Grim\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\ItemAsset\Time of Day\Assets\Shaders\Cloud Layer.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\ItemAsset\Time of Day\Assets\Shaders\PP Screen Clear.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Cube\EW1_T_D.shader" />
+     <None Include="Assets\LeapMotion\Shaders\RimShading.shader" />
+     <None Include="Assets\ItemAsset\Realistic Fire\ReadMe.txt" />
+     <None Include="Assets\LeapMotion\Dependencies.txt" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\ItemAsset\Time of Day\Assets\Shaders\Stars.shader" />
+     <None Include="Assets\Simple Mesh Combine\Scripts\C#\- IMPORTANT - Version Change Readme.txt" />
+     <None Include="Assets\LeapMotion\Resources\ThresholdOverlay.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Cube\EW10_C_TT_D_R_O.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Old\EasyWater14_C2TBDOR360.shader" />
+     <None Include="Assets\OVR\Shaders\Unlit Transparent HUD.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Cube\EW10_C_TT_D_R_FO.shader" />
+     <None Include="Assets\ItemAsset\MagicMirror\Prefab\Readme.txt" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Old\EasyWater5_TDR.shader" />
+     <None Include="Assets\ItemAsset\Coconut Palm Tree Pack\readme.txt" />
+     <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\ItemAsset\Grim\Coastline Set\ReadMe.txt" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\ItemAsset\Time of Day\Assets\Shaders\PP Scattering.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\LeapMotion\Resources\PassthroughForeground.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Cube\EW6_C_T_D_R.shader" />
+     <None Include="Assets\ItemAsset\Time of Day\Assets\Meshes\Stars\Stars.txt" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Old\EasyWater6_CTDR.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Draw Call Minimizer\Example\ReadMe.txt" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\LeapMotion\Resources\PassthroughBackground.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\ItemAsset\Time of Day\Assets\Shaders\Cloud Billboard Far.shader" />
+     <None Include="Assets\ItemAsset\Coconut Palm Tree Pack\Coconut_Palm_Shaders\TFP_treecreator\TFPTreeCreatorBarkOptimized.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\ItemAsset\Time of Day\Assets\Shaders\Atmosphere.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Old\EasyWater1_TD.shader" />
+     <None Include="Assets\ItemAsset\Time of Day\Assets\Shaders\Cloud Billboard Near.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Old\EasyWater11_2TBDO.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Old\EasyWater12_C2TBDO.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\LeapMotion\Widgets\Shaders\SelfIllumAlpha.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\ItemAsset\MagicMirror\Demo\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Old\EasyWater3_2TD.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Cube\EW14_C_TT_B_D_O_R.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Cube\EW13_TT_B_D_FO_R.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\ItemAsset\Time of Day\Assets\Shaders\TOD_Clouds.cginc" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\UnderWater\UnderWater_1.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Cube\EW12_C_TT_B_D_O.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Cube\EW9_TT_D_R_O.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\LeapMotion\Version.txt" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\ItemAsset\MagicMirror\Prefab\MirrorShader.shader" />
+     <None Include="Assets\Plugins\x86\donotdelete.txt" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\ItemAsset\Time of Day\Assets\Shaders\Clear Alpha.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\ItemAsset\Grim\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\ItemAsset\Grim\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\Plugins\SystemWipeRecognizerDll.bundle\Contents\MacOS\version.txt" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Old\EasyWater4_C2TD.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\How_To_Choose.txt" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\UnderWater\Caustics.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Old\EasyWater14_C2TBDOR.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\ItemAsset\Grim\Coastline Set\Materials\Tessa-AlphaDiffuseBumpSpec.shader" />
+     <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Old\EasyWater10_C2TDRO.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Old\EasyWater8_C2TDR.shader" />
+     <None Include="Assets\ItemAsset\EasyWater\Shaders_Cube\EW11_TT_B_D_O.shader" />
+     <None Include="Assets\ItemAsset\Time of Day\Assets\Shaders\PP Shadows.shader" />
+     <None Include="Assets\ItemAsset\Cartoon Trees &amp; Rocks Pack\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="LeapCSharp.NET3.5">
+ <HintPath>C:/Users/JaeHeon/UnityProject/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{FDE690F1-626F-FFA0-5754-E83120972A79}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{5120E47E-05CF-77CB-C2BE-2B2453982161}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - clickfg
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Field Block
+  - Field Map Tool
+  - Field Map Tool 1
+  - Field Map Tool 2
+  - Field Boundary
+  - Field Structure
+  - Floor
+  - House Block
+  - House Map Tool
+  - House Map Tool 1
+  - House Map Tool 2
+  - House Boundary
+  - 
+  - Block
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Sky
+  m_SortingLayers:
+  - name: UI
+    uniqueID: 32113993
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: New Layer1
+    uniqueID: 3189369191
+    locked: 0
+  - name: New Layer2
+    uniqueID: 3092412871
+    locked: 0

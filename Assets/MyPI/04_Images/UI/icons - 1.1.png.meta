@@ -1,0 +1,988 @@
+fileFormatVersion: 2
+guid: aa33d5d69af7053459b323769cf2227f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: icons - 1.1_0
+    21300002: icons - 1.1_1
+    21300004: icons - 1.1_2
+    21300006: icons - 1.1_3
+    21300008: icons - 1.1_4
+    21300010: icons - 1.1_5
+    21300012: icons - 1.1_6
+    21300014: icons - 1.1_7
+    21300016: icons - 1.1_8
+    21300018: icons - 1.1_9
+    21300020: icons - 1.1_12
+    21300022: icons - 1.1_13
+    21300024: icons - 1.1_14
+    21300026: icons - 1.1_17
+    21300028: icons - 1.1_18
+    21300030: icons - 1.1_19
+    21300032: icons - 1.1_20
+    21300034: icons - 1.1_21
+    21300036: icons - 1.1_22
+    21300038: icons - 1.1_23
+    21300040: icons - 1.1_24
+    21300042: icons - 1.1_25
+    21300044: icons - 1.1_26
+    21300046: icons - 1.1_27
+    21300048: icons - 1.1_28
+    21300050: icons - 1.1_29
+    21300052: icons - 1.1_30
+    21300054: icons - 1.1_31
+    21300056: icons - 1.1_32
+    21300058: icons - 1.1_33
+    21300060: icons - 1.1_34
+    21300062: icons - 1.1_37
+    21300064: icons - 1.1_38
+    21300066: icons - 1.1_39
+    21300068: icons - 1.1_40
+    21300070: icons - 1.1_43
+    21300072: icons - 1.1_44
+    21300074: icons - 1.1_45
+    21300076: icons - 1.1_46
+    21300078: icons - 1.1_47
+    21300080: icons - 1.1_48
+    21300082: icons - 1.1_49
+    21300084: icons - 1.1_50
+    21300086: icons - 1.1_51
+    21300088: icons - 1.1_52
+    21300090: icons - 1.1_53
+    21300092: icons - 1.1_54
+    21300094: icons - 1.1_55
+    21300096: icons - 1.1_56
+    21300098: icons - 1.1_57
+    21300100: icons - 1.1_58
+    21300102: icons - 1.1_59
+    21300104: icons - 1.1_60
+    21300106: icons - 1.1_61
+    21300108: icons - 1.1_62
+    21300110: icons - 1.1_63
+    21300112: icons - 1.1_64
+    21300114: icons - 1.1_65
+    21300116: icons - 1.1_66
+    21300118: icons - 1.1_67
+    21300120: icons - 1.1_68
+    21300122: icons - 1.1_69
+    21300124: icons - 1.1_70
+    21300126: icons - 1.1_71
+    21300128: icons - 1.1_72
+    21300130: icons - 1.1_73
+    21300132: icons - 1.1_74
+    21300134: icons - 1.1_75
+    21300136: icons - 1.1_76
+    21300138: icons - 1.1_77
+    21300140: icons - 1.1_78
+    21300142: icons - 1.1_79
+    21300144: icons - 1.1_80
+    21300146: icons - 1.1_81
+    21300148: icons - 1.1_82
+    21300150: icons - 1.1_83
+    21300152: icons - 1.1_84
+    21300154: icons - 1.1_85
+    21300156: icons - 1.1_86
+    21300158: icons - 1.1_87
+    21300160: icons - 1.1_88
+    21300162: icons - 1.1_87
+    21300164: icons - 1.1_86
+    21300166: icons - 1.1_83
+    21300168: icons - 1.1_84
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: icons - 1.1_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1829
+        width: 197
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_1
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1893
+        width: 132
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1888
+        width: 137
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_3
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1893
+        width: 134
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_4
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1891
+        width: 134
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_5
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1923
+        width: 132
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_6
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1891
+        width: 134
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_7
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1698
+        width: 766
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_8
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1847
+        width: 132
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_9
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1671
+        width: 138
+        height: 137
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_12
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1680
+        width: 154
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_13
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1653
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_14
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1651
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_17
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1497
+        width: 165
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_18
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1497
+        width: 165
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_19
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1497
+        width: 131
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_20
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1501
+        width: 82
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_21
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1497
+        width: 70
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_22
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1495
+        width: 134
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_23
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1495
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_24
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1495
+        width: 133
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_25
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 1330
+        width: 766
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_26
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1263
+        width: 201
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_27
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1327
+        width: 136
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_28
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1327
+        width: 134
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_29
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1327
+        width: 134
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_30
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 1327
+        width: 138
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_31
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 1359
+        width: 137
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_32
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1327
+        width: 137
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_33
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 1277
+        width: 137
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_34
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1101
+        width: 141
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_37
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1111
+        width: 154
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_38
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1083
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_39
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1079
+        width: 156
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_40
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 759
+        width: 769
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_43
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 931
+        width: 168
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_44
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 928
+        width: 166
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_45
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 931
+        width: 130
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_46
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 929
+        width: 82
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_47
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 931
+        width: 70
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_48
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 925
+        width: 133
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_49
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 931
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_50
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 931
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_51
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 738
+        width: 149
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_52
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 746
+        width: 143
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_53
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 744
+        width: 140
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_54
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 793
+        width: 141
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_55
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 759
+        width: 151
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_56
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 560
+        width: 146
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_57
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 568
+        width: 142
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_58
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 568
+        width: 139
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_59
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 616
+        width: 140
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_60
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 581
+        width: 151
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_61
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 373
+        width: 491
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_62
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 373
+        width: 489
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_63
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 384
+        width: 146
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_64
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 392
+        width: 142
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_65
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 392
+        width: 139
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_66
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 440
+        width: 140
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_67
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 405
+        width: 151
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_68
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 214
+        width: 141
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_69
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 221
+        width: 136
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_70
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 221
+        width: 137
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_71
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 269
+        width: 132
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_72
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 235
+        width: 147
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_73
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 200
+        width: 137
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_74
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 207
+        width: 130
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_75
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 207
+        width: 130
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_76
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 255
+        width: 131
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_77
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 221
+        width: 143
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_78
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 33
+        width: 154
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_79
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 19
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_80
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 19
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_81
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 41
+        width: 130
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_82
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 41
+        width: 134
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_83
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 30
+        width: 142
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_84
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 28
+        width: 142
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_85
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 30
+        width: 144
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_86
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 30
+        width: 138
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_87
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 78
+        width: 140
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_88
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 43
+        width: 150
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_87
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1673
+        width: 142
+        height: 136
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_86
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1658
+        width: 206
+        height: 148
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_83
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1104
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icons - 1.1_84
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1088
+        width: 214
+        height: 149
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

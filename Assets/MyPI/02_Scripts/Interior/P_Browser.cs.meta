@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: e0389087d079e5e419c516789dc8fff4
+timeCreated: 1437063416
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - browser: {instanceID: 0}
+  - backbut: {instanceID: 0}
+  - resetbut: {instanceID: 0}
+  - homebut: {instanceID: 0}
+  - closebut: {instanceID: 0}
+  - openbut: {instanceID: 0}
+  - FilePrefab: {instanceID: 0}
+  - DirPrefab: {instanceID: 0}
+  - contents: {instanceID: 0}
+  - urltxt: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
